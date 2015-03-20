@@ -22,6 +22,7 @@ set backspace=indent,eol,start
 syntax on
 colorscheme monokai
 filetype plugin indent on
+set t_Co=256
 
 " stop unnecessary rendering
 set lazyredraw
