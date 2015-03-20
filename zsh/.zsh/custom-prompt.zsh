@@ -17,9 +17,9 @@
 #█▓▒░ colors for permissions
 if [[ "$EUID" -ne "0" ]]
 then  # if user is not root
-	USER_LEVEL="%F{cyan}"
+	USER_LEVEL="%F{white}"
 else # root!
-	USER_LEVEL="%F{red}"
+	USER_LEVEL="%F{cyan}"
 fi
 
 #█▓▒░ allow functions in the prompt
