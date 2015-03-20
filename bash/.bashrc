@@ -37,7 +37,6 @@ fi
 
 # Shell
 export CLICOLOR="1"
-# git prompt script http://git.io/p0UO
 if [ -f $HOME/git-prompt.sh ]; then
   source $HOME/git-prompt.sh
   export GIT_PS1_SHOWDIRTYSTATE="1"
