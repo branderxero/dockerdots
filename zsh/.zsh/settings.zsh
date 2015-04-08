@@ -27,3 +27,6 @@ export VISUAL='vim'
 
 #█▓▒░ language
 export LC_CTYPE=en_US.utf8
+
+#█▓▒░ colorize
+export TERM=xterm-256color
