@@ -25,6 +25,7 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 alias less='less -R'
+alias v='vim'
 alias vi='vim'
 alias sprunge="curl -F 'sprunge=<-' http://sprunge.us"
 alias errlog="echo '' > /var/www/error.log && echo '' > /var/www/access.log"
