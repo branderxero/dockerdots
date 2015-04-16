@@ -1,4 +1,4 @@
-# ascii art flair
+#█▓▒░ ascii art flair
 echo '                   ##        .          ';
 echo '             ## ## ##       ==          ';
 echo '          ## ## ## ##      ===          ';
@@ -7,13 +7,11 @@ echo ' ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~ ';
 echo '      \______ o          __/            ';
 echo '        \    \        __/               ';
 echo '         \____\______/                  ';
-echo '    .___             __                 ';
-echo '  __| _/____   ____ |  | __ ___________ ';
-echo ' / __ |/  _ \_/ ___\|  |/ // __ \_  __ \';
-echo '/ /_/ (  <_> )  \___|    <\  ___/|  | \/';
-echo '\____ |\____/ \___  >__|_ \\___  >__|   ';
-echo '     \/           \/     \/    \/       ';
-echo ' ';
+echo '                                        ';
+echo '      ╺┳━┓ ┏━┓ ┏━╸ ╻┏  ┏━╸ ┏━┓          ';
+echo '       ┃ ┃ ┃ ┃ ┃   ┣┻┓ ┣╸  ┣┳┛          ';
+echo '      ╺┻━┛ ┗━┛ ┗━╸ ╹ ╹ ┗━╸ ╹┗╸          ';
+echo '                                        ';
 
 # aliases
 alias ls="ls --color=auto"
@@ -41,9 +39,9 @@ export CLICOLOR="1"
 if [ -f $HOME/git-prompt.sh ]; then
   source $HOME/git-prompt.sh
   export GIT_PS1_SHOWDIRTYSTATE="1"
-  export PS1="\[\e[0;36m\][\[\e[1;37m\]\$(pwd)\[\e[0;36m\]]\$(__git_ps1)\[\e[0;36m\]── - \[\e[1;37m\]"
+  export PS1="\[\e[0;124m\][\[\e[1;37m\]\$(pwd)\[\e[0;124m\]]\$(__git_ps1)\[\e[0;124m\]── - \[\e[1;37m\]"
 else
-  export PS1="\[\e[0;36m\][\[\e[1;37m\]\$(pwd)\[\e[0;36m\]]── - \[\e[1;37m\]"
+  export PS1="\[\e[0;124m\][\[\e[1;37m\]\$(pwd)\[\e[0;124m\]]── - \[\e[1;37m\]"
 fi
 # export LS_COLORS="di=34:ln=35:so=32:pi=33:ex=1;40:bd=34;40:cd=34;40:su=0;40:sg=0;40:tw=0;40:ow=0;40:"
 
