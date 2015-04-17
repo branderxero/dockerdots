@@ -9,8 +9,7 @@
 #
 #  ▓▓▓▓▓▓▓▓▓▓
 # ░▓ author ▓ xero <x@xero.nu>
-# ░▓ code   ▓ http://code.xero.nu/dotfiles
-# ░▓ mirror ▓ http://git.io/.files
+# ░▓ code   ▓ http://git.io/docdots
 # ░▓▓▓▓▓▓▓▓▓▓
 # ░░░░░░░░░░
 #
@@ -27,3 +26,6 @@ export VISUAL='vim'
 
 #█▓▒░ language
 export LC_CTYPE=en_US.utf8
+
+#█▓▒░ set term
+setenv TERM xterm-256color

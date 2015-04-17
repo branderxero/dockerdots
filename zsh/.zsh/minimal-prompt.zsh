@@ -9,8 +9,7 @@
 #
 #  ▓▓▓▓▓▓▓▓▓▓
 # ░▓ author ▓ xero <x@xero.nu>
-# ░▓ code   ▓ http://code.xero.nu/dotfiles
-# ░▓ mirror ▓ http://git.io/.files
+# ░▓ code   ▓ http://git.io/docdots
 # ░▓▓▓▓▓▓▓▓▓▓
 # ░░░░░░░░░░
 #
